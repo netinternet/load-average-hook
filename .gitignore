@@ -1,0 +1,9 @@
+load-avarage-hook
+.DS_Store
+tmp/*
+.vscode
+.DS_Store
+.idea
+.idea/*
+.env
+.prod

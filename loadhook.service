@@ -1,0 +1,15 @@
+[Unit]
+Description=Load avarage monitor web hook service
+After=syslog.target network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Restart=always
+ExecStart=/usr/bin/loadhook
+TimeoutStopSec=5
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
