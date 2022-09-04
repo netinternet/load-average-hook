@@ -1,4 +1,5 @@
-load-avarage-hook
+load-average-hook
+loadhook
 .DS_Store
 tmp/*
 .vscode
